@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.anti]
+@="AntiScriptFile"
+
+[HKEY_CLASSES_ROOT\AntiScriptFile]
+@="AntiScript File"
+
+[HKEY_CLASSES_ROOT\AntiScriptFile\shell\open\command]
+@="\"C:\path\to\your\python.exe" \"C:\\path\\to\\your\\antiscript_1.0.0_python314\\main.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\AntiScriptFile\DefaultIcon]
+@="C:\\path\\to\\your\\antiscript_1.0.0_python314\\antiicon.ico"
