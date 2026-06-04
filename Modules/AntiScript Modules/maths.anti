@@ -1,0 +1,66 @@
+# AntiScript v1.0.0
+# Made by Aarsh Garg in 2026.
+# Module 'maths'
+
+the thing called maths_square which needs n
+    give back n multiply n
+thats it
+
+the thing called maths_cube which needs n
+    give back n multiply n multiply n
+thats it
+
+the thing called maths_power which needs base and exponent
+    result is 1
+    counter is 0
+    as long as counter lessthan exponent
+        result is result multiply base
+        counter is counter plus 1
+    done with that
+    give back result
+thats it
+
+the thing called maths_root which needs num and exponent
+    guess is 1
+    as long as maths_power(guess, exponent) lessthaneq num
+        maybe maths_power(guess, exponent) equals num
+            give back guess
+        done with that
+        guess is guess plus 1
+    done with that
+    give back -1
+thats it
+
+the thing called maths_abs which needs n
+    maybe n lessthan 0
+        give back 0 minus n
+    done with that
+    give back n
+thats it
+
+the thing called maths_fact which needs n
+    result is 1
+    counter is 1
+    as long as counter lessthaneq n
+        result is result multiply counter
+        counter is counter plus 1
+    done with that
+    give back result
+thats it
+
+the thing called maths_test
+	num1 is ask number "Enter Number for Test 1: "
+	yell maths_square(num1)
+	num2 is ask number "Enter Number for Test 2: "
+	yell maths_cube(num2)
+	base is ask number "Enter Base for Test 3: "
+	exponent1 is ask number "Enter Exponent for Test 3: "
+	yell maths_power(base, exponent1)
+	num3 is ask number "Enter Number for Test 4: "
+	exponent2 is ask number "Enter Exponent for Test 4: "
+	yell maths_root(num3, exponent2)
+	num4 is ask number "Enter Number for Test 5: "
+	yell maths_abs(num4)
+	num5 is ask number "Enter Number for Test 6: "
+	yell maths_fact(num5)
+thats it
